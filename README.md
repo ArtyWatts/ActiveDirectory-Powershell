@@ -158,15 +158,19 @@ First I will set up a windows server virtual machine with one internal and one e
  ![27 hey thats me!](https://github.com/ArtyWatts/ActiveDirectory-Powershell/assets/141881183/d90a0a74-c102-44b5-bde9-44ee32256eed)
 
  <p align="center"> 
- <b>The client should now have internet access. Sadly my windows10.iso file is defaulting to the home version of windows (because my main PC has windows Home and it registers the key), so i currently cant conclude the final test. I tried [This](https://community.spiceworks.com/topic/1902013-windows-10-pro-install-on-home-system) workaround but i didnt get it to work yet. I am pretty sure it works though. I will finish this task later. </b>
+ <b>The client should now have internet access. Sadly my windows10.iso file is defaulting to the home version of windows (because my main PC has windows Home and it registers the key), so i currently cant conclude the final test. I tried a workaround but I didnt get it to work yet. I am pretty sure it works though. I will finish this task later.
+   
+  
+     
+ [-------->Workaround](https://community.spiceworks.com/topic/1902013-windows-10-pro-install-on-home-system)
+ 
+ </b>
 
  ![28 this should work](https://github.com/ArtyWatts/ActiveDirectory-Powershell/assets/141881183/cfb1c9b6-e247-4f61-963a-1b28145d7f21)
 
 
-
- 
-
-
+<p align="center">
+  
 
 
 

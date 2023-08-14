@@ -3,13 +3,12 @@
 
 
 <h2>Description</h2>
-First I will set up a windows server virtual machine with one internal and one external NIC. After that I will assign a new IP address to the internal network and change its DNS server address to the loopback address (itself). The next step includes installing Active Directory Domain Services and create a Domain + an admin account. Furthermore I install Remote Access Server (RAT) + Network Adress Translation (NAT) so that the Windows 10 Client can access the private network, but still get access to the internet via the Domain Controller. After setting up a DHCP server the windows 10 client should be able to get an IP address and browse the internet successfully even though it is on the internal network. Now I am ready to add users with the help of a quick powershell script. The final step is to add the second windows 10 VM that poses as the Client to the network.
+First I will set up a windows server virtual machine with one internal and one external Network Adapter. After that I will assign a new IP address to the internal network and change its DNS server address to the loopback address (itself). The next step includes installing Active Directory Domain Services and create a Domain + an admin account. Furthermore I install Remote Access Server (RAT) + Network Adress Translation (NAT) so that the Windows 10 Client can access the private network, but still get access to the internet via the Domain Controller. After setting up a DHCP server the windows 10 client should be able to get an IP address and browse the internet successfully, even though it is on the internal network. Now I am ready to add users with the help of a quick powershell script. The final step is to add the second windows 10 VM that poses as the Client to the network and test, if I have internet access via the domain controller.
 <br />
 
 
 <h2>Languages, Applications and Utilities Used</h2>
 
-- <
 - <b>Active Directory</b>
 - <b>Powershell</b>
 

@@ -3,7 +3,7 @@
 
 
 <h2>Description</h2>
-First I will set up a windows server virtual machine with one internal and one external Network Adapter. After that I will assign a new IP address to the internal network and change its DNS server address to the loopback address (itself). The next step includes installing Active Directory Domain Services and create a Domain + an admin account. Furthermore I install Remote Access Server (RAT) + Network Adress Translation (NAT) so that the Windows 10 Client can access the private network, but still get access to the internet via the Domain Controller. After setting up a DHCP server the windows 10 client should be able to get an IP address and browse the internet successfully, even though it is on the internal network. Now I am ready to add users with the help of a quick powershell script. The final step is to add the second windows 10 VM that poses as the Client to the network and test, if I have internet access via the domain controller.
+First I will set up a windows server virtual machine with one internal and one external Network Adapter. After that I will assign a new IP address to the internal network and change its DNS server address to the loopback address (itself). The next step includes installing Active Directory Domain Services and create a Domain + an admin account. Furthermore I install Remote Access Server (RAT) + Network Adress Translation (NAT) so that the Windows 10 Client can access the private network, but still get access to the internet via the Domain Controller. After setting up a DHCP server the windows 10 client should be able to get an IP address and browse the internet successfully, even though it is on the internal network. Now I am ready to add users with the help of a quick powershell script. The final step is to add the second windows 10 VM that poses as the client to the network and test, if I have internet access via the domain controller.
 <br />
 
 
@@ -33,7 +33,7 @@ First I will set up a windows server virtual machine with one internal and one e
   ![1 checking which one is internal and external network](https://github.com/ArtyWatts/ActiveDirectory-Powershell/assets/141881183/1811229b-7999-4d66-bfce-a55cc96d943e)
 
   <p align="center"> 
- <b>Rename the Pc to domainc</b>
+ <b>Rename the PC to domainc</b>
 
 ![2 rename the pc](https://github.com/ArtyWatts/ActiveDirectory-Powershell/assets/141881183/8b7bb82c-f5d7-4366-80b9-f14cd912a7e7)
 
